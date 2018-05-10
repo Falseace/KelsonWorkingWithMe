@@ -82,8 +82,19 @@ public class MazeGame {
     };
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         int x = 10;
         int y = 10;
+=======
+        int x = 8;
+        if (args.length >= 1){
+            x = (Integer.parseInt(args[0]));
+    }
+        int y = 8;
+        if (args.length == 2) {
+         y = (Integer.parseInt(args[1]));
+        }
+>>>>>>> 589672ed7291a1f2c7a3d3e0c55681ac4a340d9f
         MazeGame maze = new MazeGame(x, y);
         maze.display();
     }
