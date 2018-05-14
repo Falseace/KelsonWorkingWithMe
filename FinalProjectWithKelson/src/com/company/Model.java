@@ -1,3 +1,4 @@
+package com.company;
 interface Model{
     public void saveStrings(String[] s);
     public void saveInts(int[] i);

@@ -1,3 +1,4 @@
+package com.company;
 import java.awt.*;
 import javax.imageio.ImageIO;
 import java.io.*;

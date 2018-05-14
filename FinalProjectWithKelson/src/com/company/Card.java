@@ -1,8 +1,10 @@
+package com.company;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.*;
+
 
 public class Card extends JComponent implements MouseListener{
     protected int value;

@@ -1,3 +1,4 @@
+package com.company;
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
 import java.io.FileInputStream;
